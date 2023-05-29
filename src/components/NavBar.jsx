@@ -4,7 +4,7 @@ function NavBar() {
       <div className="website-name">
         <h1>Simple URL</h1>
       </div>
-      <ul>
+      {/* <ul>
         <li>
           <a href="#">Home</a>
         </li>
@@ -14,7 +14,7 @@ function NavBar() {
         <li>
           <a href="#">Contact</a>
         </li>
-      </ul>
+      </ul> */}
     </nav>
   );
 }

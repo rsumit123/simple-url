@@ -1,12 +1,13 @@
-import React from 'react';
+import React from "react";
 
 const Loader = () => {
-    return (
-        <div className="progress-backdrop">
-          
-          <div className="loader"></div>
-        </div>
-      );
+  return (
+    <div className="loading-container-container">
+    <div className="loading-container">
+      <div className="loader"></div>
+      </div>
+    </div>
+  );
 };
 
 export default Loader;

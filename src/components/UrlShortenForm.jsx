@@ -53,9 +53,10 @@ function UrlShortenForm() {
 
 
         {shortUrl && loadingButton === false ? (<Popup
-          trigger={
-            <button>Click to view url</button>
-          }
+          // trigger={
+          //   <button>Click to view url</button>
+          // }
+          open={!loadingButton}
           modal
           position="right center"
         >
